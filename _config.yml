@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 马拉松爱好者
 subtitle:
-description:
-keywords:
-author: John Doe
+description: 本站分享关于马拉松，半程马拉松，长跑的文章，包括马拉松赛事信息，跑步训练方法，跑步心得，等等
+keywords: 马拉松,半马,长跑,跑步
+author: 小马哥
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://210975.xyz
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day.html
 permalink_defaults:
 
 # Directory
@@ -82,3 +82,8 @@ deploy:
   repo: https://github.com/210975/210975.github.io.git
   branch: master
 
+Plugins:
+- hexo-generator-sitemap
+
+sitemap:
+  path: sitemap.xml
